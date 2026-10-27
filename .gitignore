@@ -1,8 +1,39 @@
 node_modules/
+dist/
+dist-ssr/
+.dev-dist/
+.vite/
+coverage/
+*.tsbuildinfo
+*.local
+
+# PWA / Workbox
+dev-dist/
+sw.js
+workbox-*.js
+
+# Editores e sistema
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/*
+!.vscode/extensions.json
+
+# Logs e temporários
+*.log
+npm-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+*.tmp
+*.tmp.*
+.env
+.env.*
+!.env.example
+
+# Legado Expo
 .expo/
 .expo-shared/
 android/app/build/
 ios/build/
 *.apk
 *.ipa
-.DS_Store
